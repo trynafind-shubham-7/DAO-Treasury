@@ -1,22 +1,53 @@
-# Soroban Project
+# 🧠 DAO Treasury (Soroban Smart Contract)
 
-## Project Structure
+## 📌 Project Description
+DAO Treasury is a simple decentralized treasury management smart contract built using Soroban on the Stellar blockchain. It provides a foundational structure for managing shared funds in a decentralized organization.
 
-This repository uses the recommended structure for a Soroban project:
+This contract is designed as a minimal prototype to demonstrate how DAOs can securely manage deposits and withdrawals using on-chain logic.
 
-```text
-.
-├── contracts
-│   └── hello_world
-│       ├── src
-│       │   ├── lib.rs
-│       │   └── test.rs
-│       └── Cargo.toml
-├── Cargo.toml
-└── README.md
-```
+---
 
-- New Soroban contracts can be put in `contracts`, each in their own directory. There is already a `hello_world` contract in there to get you started.
-- If you initialized this project with any other example contracts via `--with-example`, those contracts will be in the `contracts` directory as well.
-- Contracts should have their own `Cargo.toml` files that rely on the top-level `Cargo.toml` workspace for their dependencies.
-- Frontend libraries can be added to the top-level directory as well. If you initialized this project with a frontend template via `--frontend-template` you will have those files already included.
+## ⚙️ What it does
+- Initializes a DAO treasury with an admin address
+- Allows users to deposit funds into the treasury
+- Allows only the admin to withdraw funds
+- Keeps track of the total treasury balance on-chain
+
+---
+
+## ✨ Features
+- 🔐 Admin-controlled withdrawals
+- 💰 Deposit tracking system
+- 📊 On-chain balance storage
+- ⚡ Lightweight and gas-efficient design
+- 🧱 Built with Soroban (Stellar smart contracts)
+
+---
+
+## 🚀 Future Improvements
+- Multi-signature governance
+- Proposal & voting system
+- Token-based DAO membership
+- Timelocked withdrawals
+- Event logging
+
+---
+
+## 🛠 Tech Stack
+- Rust
+- Soroban SDK
+- Stellar Blockchain
+
+---
+
+## 📦 How to Use
+1. Deploy contract to Soroban network
+2. Call `init(admin_address)`
+3. Users call `deposit()`
+4. Admin can call `withdraw()`
+5. Query balance using `get_balance()`
+
+---
+
+## 📜 License
+MIT License
