@@ -1,6 +1,8 @@
 <img width="1600" height="810" alt="image" src="https://github.com/user-attachments/assets/9f3a1273-a90c-4dc8-befe-4fa814e8cff0" />
 
-https://stellar.expert/explorer/testnet/contract/CCHBOCIDGQCEGAEJH74W5KYXY4OXDEW4DRFMBFI3VQQK5ALLYKRF6TR5
+https://stellar.expert/explorer/testnet/contract/CDIRRFPI3FUWWWHHM6PYFU24JCQFXAVLPA3A7GLHBZITLTB34YRDC7X2
+
+Contract Address : CDIRRFPI3FUWWWHHM6PYFU24JCQFXAVLPA3A7GLHBZITLTB34YRDC7X2
 
 # 🧠 DAO Treasury (Soroban Smart Contract)
 
